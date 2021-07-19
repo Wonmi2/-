@@ -33,7 +33,7 @@ print(AND(1, 1)) # 1 을 출력
     0
     0
     1
-    
+
 
 ```python
 def AND(x1, x2):
@@ -56,7 +56,7 @@ print(AND(1, 1)) # 1 을 출력
     1
     
 
-
+## 편향(b)의 도입
 ```python
 import numpy as np
 
@@ -136,7 +136,7 @@ if __name__ == '__main__':
     (1, 1) -> 1
     
 
-## XOR 게이트 (0,1,1,0)
+## XOR 게이트 (0,1,1,0) : 배타적 논리합 ==> 다층 퍼셉트론 출현의 이유
 ```python
 from and_gate import AND
 from or_gate import OR
